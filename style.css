@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#jumbotron {
+    min-height: 450px;
+    width: 100%;
+    background: url("img/unsplash_vLQraPNUTUc.png");
+    background-size: cover;
+    /* atau gunakan contain */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+#header {
+    width: 100%;
+    padding-block: 20px;
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding-block: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.judul {
+    text-align: center;
+    color: white;
+}
+
+.judul h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: "Chelsea Market", system-ui;
+    font-size: 50px;
+}
+
+.judul p.second {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.judul p.first {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+/* ---------- content ------------ */
+
+#content {
+    margin-block: 5%;
+    margin-inline: 10%;
+}
+
+#fitur {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-fitur {
+    padding: 20px;
+    width: 28%;
+    display: flex;
+    gap: 20px;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 20px 0 grey;
+}
+
+.box-fitur img {
+    height: 20px;
+}
+
+.box-fitur p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+}
+
+#product {
+    margin-inline: 3%;
+    margin-block: 5%;
+}
+
+.box-product {
+    background-color: #F0F0F0;
+    width: 28%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.box-product img {
+    height: 350px;
+}
+
+.box-product h2 {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.box-product p {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-product {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.price-product p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price-product button {
+    color: white;
+    background-color: #4A9C80;
+    font-weight: bold;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+
+.favorit {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favorit img {
+    height: 20px;
+}
